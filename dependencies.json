@@ -1,8 +1,8 @@
 {
   "@types/react": "latest",
   "@types/react-native": "latest",
-  "husky": "latest",
   "r-n-t-typescript-postinstall": "jmfirth/r-n-t-typescript-postinstall",
+  "husky": "latest",
   "ts-jest": "latest",
   "tslint": "latest",
   "tslint-react": "latest",
