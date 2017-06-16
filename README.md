@@ -1,15 +1,25 @@
 # React Native with TypeScript
 
-## Usage
+Included in the template:
 
-1. Create a new project:
+* [TypeScript][typescript] support
+
+* [ts-jest][ts-jest] support
+
+* Initializes empty Git repository with hooks from [husky][husky]
+
+  - `postmerge`: Will update dependencies based on `yarn.lock`
+
+  - `precommit`: Lints, type checks and runs tests on project
+
+## Use the Template
 
 ```sh
 react-native init AwesomeTSProject --template typescript --skip-jest
 ```
 
-2. Change the name of the registered component in `index.ios.js` and `index.android.js` to match your project name.
+Run as usual!
 
-```ts
-AppRegistry.registerComponent('AwesomeTSProject', () => App);
-```
+[typescript]: https://github.com/Microsoft/TypeScript
+[ts-jest]: https://github.com/kulshekhar/ts-jest
+[husky]: https://github.com/typicode/husky
