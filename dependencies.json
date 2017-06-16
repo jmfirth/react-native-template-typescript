@@ -1,7 +1,9 @@
 {
   "@types/react": "latest",
   "@types/react-native": "latest",
-  "ts-loader": "latest",
+  "husky": "latest",
+  "r-n-t-typescript-postinstall": "jmfirth/r-n-t-typescript-postinstall",
+  "ts-jest": "latest",
   "tslint": "latest",
   "tslint-react": "latest",
   "typescript": "latest"
